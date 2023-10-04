@@ -43,7 +43,6 @@ namespace Tyuiu.PyanzinaMA.Sprint2.Task0.V4
                 Console.WriteLine(res[i]);
             }
 
-
             Console.ReadKey();
         }
     }

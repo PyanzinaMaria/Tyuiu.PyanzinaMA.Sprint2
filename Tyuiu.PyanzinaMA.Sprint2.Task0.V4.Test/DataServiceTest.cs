@@ -17,6 +17,7 @@ namespace Tyuiu.PyanzinaMA.Sprint2.Task0.V4.Test
             res = ds.GetCompareOperations(x, y);
             bool[] wait = new bool[6] { false, true, false, true, false, true };
             CollectionAssert.AreEqual(wait, res);
+
         }
     }
 }

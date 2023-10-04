@@ -22,8 +22,6 @@ namespace Tyuiu.PyanzinaMA.Sprint2.Task0.V4.Lib
 
             return res;
 
-            //false, true, false, true, false, true
-            //==, !=, <, >, <=, >=
         }
     }
 }
