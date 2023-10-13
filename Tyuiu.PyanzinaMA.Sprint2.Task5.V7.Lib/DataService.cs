@@ -11,11 +11,6 @@ namespace Tyuiu.PyanzinaMA.Sprint2.Task5.V7.Lib
     {
         public string FindMonthName(int startYear, int n)
         {
-            while (n >= 12)
-            {
-                n -= 12;
-            }
-
             string res;
             switch (n)
             {

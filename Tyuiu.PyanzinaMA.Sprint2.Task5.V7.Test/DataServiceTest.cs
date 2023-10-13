@@ -27,7 +27,7 @@ namespace Tyuiu.PyanzinaMA.Sprint2.Task5.V7.Test
 
             Assert.ThrowsException<ArgumentException>(() =>
             {
-               ds.FindMonthName(1990,0);
+               ds.FindMonthName(1990, 1);
             });
             Assert.ThrowsException<ArgumentException>(() =>
             {
